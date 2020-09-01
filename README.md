@@ -15,13 +15,22 @@ npm install @devdex/ShadowDragon
 ```
 
 ## Usage
+__**Random Word**__
+```javascript
+const { WordList } = require('@devdex/ShadowDragon');
 
-```python
-import foobar
+var RandomWord = WordList();
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+console.log(RandomWord);
+```
+
+__**Email Generator**__
+```javascript
+const { EmailGenerator } = require('@devdex/ShadowDragon');
+
+var Generate = EmailGenerator();
+
+console.log(Generate);
 ```
 
 ## Contributing
